@@ -1,11 +1,9 @@
 RISC-V 5-Stage Pipelined Processor
 
 Overview
-
 This project implements a 5-stage RISC-V pipelined processor with support for various instruction types, including R, I, U, J, B, and S types. The processor also includes support for Control and Status Registers (CSR), as well as interrupt and exception handling.
 
 Architecture
-
 The processor is designed with the following five stages:
 
 Instruction Fetch (IF):
@@ -47,4 +45,4 @@ CSR Support
 The processor includes support for Control and Status Registers (CSR) for managing system control and status. It allows privileged instructions to access and modify CSR values.
 
 Interrupt and Exception Handling
-The processor implements interrupt and exception handling mechanisms to gracefully handle unexpected events or requests. It includes mechanisms for handling external interrupts and exceptions raised during the execution of instructions
+The processor implements interrupt and exception handling mechanisms to gracefully handle unexpected events or requests. It includes mechanisms for handling external interrupts and exceptions raised during the execution of instructions.
